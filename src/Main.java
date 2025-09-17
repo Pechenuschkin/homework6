@@ -66,11 +66,8 @@ public class Main {
         System.out.println();
         System.out.println(" Task # 10");
         int a = 2;
-        int b = 1;
         for (int i = 1; i <= 10; i++) {
-            a = b * 2;
-            b = b + 1;
-            System.out.println(" 2 * " + i + " = " + a);
+            System.out.println(a + " * " + i + " = " + (a * i));
         }
     }
 }
